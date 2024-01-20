@@ -1,7 +1,11 @@
 #include "Cellular_Automaton_2D.hpp"
 
 int main(){
-    Cellular_Automaton_2D ca2D(200, 200, 3);
+    int rows = 200;
+    int cols = 200;
+    int cell_size = 3;
+    
+    Cellular_Automaton_2D ca2D(rows, cols, cell_size);
 
     ca2D.run();
 
