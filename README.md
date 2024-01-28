@@ -13,12 +13,7 @@ This is a simple implementation of Conway's Game of Life using C++ and SFML Libr
 ``` bash
 https://github.com/Shubhm1shra/Cellular-Automata_1D.git)https://github.com/Shubhm1shra/Cellular-Automata-2D.git
 ```
-3. Compile using prefered compiler,
-``` bash
-g++ Cellular_Automaton_2D.cpp -o main main.cpp -I\"path\\to\\your\\sfml\\include\" -L\"path\\to\\your\\sfml\\libs\" -lsfml-graphics -lsfml-window -lsfml-system
-```
-
-__Note :__ Make sure that when running bash commands, the current directory is located in the cloned repo.
+3. Compile by running build.bat
 
 ## Run 🏃‍♂️
 Run the executable,
